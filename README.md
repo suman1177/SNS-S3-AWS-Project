@@ -29,7 +29,7 @@ This project demonstrates us the setup of Amazon Simple Notification Service (SN
 7. Click on "save changes."
 
 #### policy Example:
-''' 
+'''json
 {
     "Version": "2012-10-17",
     "Id": "example-ID",
@@ -54,7 +54,7 @@ This project demonstrates us the setup of Amazon Simple Notification Service (SN
             }
         }
     ]
-} 
+}                  
 '''
 
 ### Step 4: Configure S3 Bucket Event Notification
