@@ -29,8 +29,7 @@ This project demonstrates us the setup of Amazon Simple Notification Service (SN
 7. Click on "save changes."
 
 #### policy Example:
-'''json
-{
+# {
     "Version": "2012-10-17",
     "Id": "example-ID",
     "Statement": [
@@ -41,7 +40,7 @@ This project demonstrates us the setup of Amazon Simple Notification Service (SN
                 "Service": "s3.amazonaws.com"
             },
             "Action": [
-                "SNS:Publish"
+     "SNS:Publish"
             ],
             "Resource": "SNS-topic-ARN",
             "Condition": {
